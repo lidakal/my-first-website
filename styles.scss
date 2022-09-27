@@ -1,0 +1,91 @@
+$ncol: 4;
+$color_dark: rgb(59, 35, 52);
+$color_light: rgb(105, 70, 96);
+
+body {
+    text-align: center;
+    // background-image: url("images/background.jpg");
+    background-image: linear-gradient(rgb(245, 225, 240, 0.5), rgb(222, 189, 214, 0.5));
+}
+
+body, input {
+    font-size: 30px;
+    font-family: Segoe UI, sans-serif;
+}
+
+h1 {
+    color: $color_dark;
+    font-size: 100px;
+}
+
+h2 { 
+    color: $color_light;
+    font-size: 50px;
+}
+
+ol {
+    list-style-type: decimal;
+    display: inline-block; 
+    text-align: justify;
+    padding: 1% 2% 1% 2%;
+    border-radius: 10px;
+    max-width: 550px;
+}
+
+#guide {
+    border: 3px solid $color_light;
+}
+
+table {
+    border: none;
+    border-collapse: collapse;
+    margin: auto;
+    table-layout: fixed;
+}
+
+td, th {
+    padding: 0.5% 1% 0.5% 1%;
+}
+
+td {
+    border: 5px solid rgb(0, 0, 0, 0.5);
+    border-style: double;
+    width: 400px;
+}
+
+.toprow {
+    border-top: none;
+}
+
+.leftcol {
+    border-left: none;
+}
+
+.botrow {
+    border-bottom: none;
+}
+
+.rightcol {
+    border-right: none;;
+}
+
+.img-wrap {
+    text-align: center;
+}
+
+div > img {
+    display: inline-block;
+    max-width: 300px;
+    width: auto;
+}
+
+.page {
+    height: 900px;
+}
+
+input[type=radio] {
+    width: 30px;
+    transform: scale(2);
+    margin-right: 0%;
+    padding-right: 0%;
+}
