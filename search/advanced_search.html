@@ -2,11 +2,23 @@
 <html lang="en">
     <head>
         <title>Definitely not Google</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <p class="navigate"> 
+            <a href="index.html" class="navigationButton"> Google Search </a>
+        </p>
+        <div class="centerpiece"> 
+            <img src="images/googleLogo.png" class="logo">
+            <form action="https://www.google.com/search">
+                <p class="searchbar"> 
+                    <img src="images/searchIcon.png"> 
+                    <input type="text" name="q" class="searchCursor"> 
+                </p>
+                <br>
+                <input type="submit" value="Google Search" class="searchbutton">
+                <input type="submit" value="I feel lucky" class="searchbutton">
+            </form>
+        </div>
     </body>
 </html>
